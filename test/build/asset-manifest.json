@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e070ac5.css",
+    "main.js": "/static/js/main.085f899d.js",
+    "static/js/845.febf9236.chunk.js": "/static/js/845.febf9236.chunk.js",
+    "static/js/787.1257cef4.chunk.js": "/static/js/787.1257cef4.chunk.js",
+    "static/media/mainBG.png": "/static/media/mainBG.535e270c96006fb66b21.png",
+    "static/media/2048.png": "/static/media/2048.55202dc203542630c1e7.png",
+    "static/media/puzzle.png": "/static/media/puzzle.716191b54292e412ff77.png",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.a15ada9dce4ef344a1eb.png",
+    "static/media/win.wav": "/static/media/win.fe95e484c435a6154d9c.wav",
+    "static/media/ballBrick.png": "/static/media/ballBrick.f1774748a853999530e4.png",
+    "static/media/lost.wav": "/static/media/lost.3ee49855187ff677a6c6.wav",
+    "static/media/heroImg.png": "/static/media/heroImg.58d08cdc264608b6ef30.png",
+    "static/media/x.wav": "/static/media/x.efc27367c664d18856c3.wav",
+    "static/media/tie.wav": "/static/media/tie.fede42ffb8db371c8b34.wav",
+    "static/media/o.png": "/static/media/o.996307951e3d5b42d92c.png",
+    "static/media/o.wav": "/static/media/o.a0ff8cc8f5693bd3fb93.wav",
+    "static/media/x.png": "/static/media/x.4319470eb2409a133f22.png",
+    "static/media/google.png": "/static/media/google.69be400a76cb06e826fe.png",
+    "index.html": "/index.html",
+    "main.3e070ac5.css.map": "/static/css/main.3e070ac5.css.map",
+    "main.085f899d.js.map": "/static/js/main.085f899d.js.map",
+    "845.febf9236.chunk.js.map": "/static/js/845.febf9236.chunk.js.map",
+    "787.1257cef4.chunk.js.map": "/static/js/787.1257cef4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e070ac5.css",
+    "static/js/main.085f899d.js"
+  ]
+}

@@ -1,0 +1,38 @@
+/* Statistics.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial, sans-serif';
+  background-image: url("../images/mainBG.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center; /* Set overall background color to black */
+  color: #fff; /* Set overall text color to white for contrast */
+}
+
+.statistics-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.statistics-container .chart-container {
+  background: #c9c0c0; /* Set a darker background for the chart area */
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.statistics-container canvas {
+  max-width: 100%;
+}

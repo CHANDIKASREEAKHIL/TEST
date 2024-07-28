@@ -1,0 +1,124 @@
+.addEntryButton{
+  background-color: #624FC2;
+  height: 80%;
+  width: 9vw;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-family: 'Manrope';
+  color: white;
+  font-size: 1.7vh;
+  font-weight: 500;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.modalDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s linear 0.5s;
+}
+
+.modalOpen {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s linear;
+}
+
+.modalContent {
+  background-color: #581AA8;
+  height: 40vh;
+  width: 40vw;
+  border-radius: 25px;
+  display: grid;
+  padding: 2vh;
+  grid-template-rows: 1fr 10fr;
+}
+
+.headerText {
+  /* color: var(--gray-800, #1f2937); */
+  font-size: 2.4vh;
+  font-style: normal;
+  font-weight:600;
+  text-align:center;
+  line-height: normal;
+  margin-left:5vw;
+}
+.headerdiv 
+{
+   height:100%;
+   width:100%;
+   place-items:center;
+} 
+
+.button
+{
+    padding: 0.9vh 1.4vh;
+    border:none;
+    cursor: pointer;
+    color: #FFF;
+    font-family:'Manrope';
+    font-size: 1.8vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius:2.4vh;
+    background: #624FC2;
+}
+
+.download 
+{
+  color: #FFF;
+  font-family:'Manrope';
+  font: size 0.3vh;
+  border:none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 2.4vh;
+  background: #624FC2;
+  padding:1vh 0.6vh;
+
+}
+
+.buttonDiv
+{
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .addEntryButton {
+    width: 35vw;
+  }
+  .modalContent {
+    width: 95vw;
+  }
+
+  .headerText {
+    color: var(--gray-800, #1f2937);
+    font-family: "Manrope";
+    font-size: 1.8vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left:10vw;
+  }
+}
+
+
